@@ -10,5 +10,6 @@ An AI-powered document reader and Q&A assistant using RAG architecture.
 
 ## Setup
 1. Clone the repo
-2. pip install -r requirements.txt`
+2. https://github.com/AlishaHaleem/Docsage.git
+3. pip install -r requirements.txt`
 
