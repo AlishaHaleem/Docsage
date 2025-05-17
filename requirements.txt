@@ -4,7 +4,7 @@ langchain-community==0.3.23
 langchain-core==0.3.56
 langchain-text-splitters==0.3.8
 langsmith==0.3.37
-
+langchain-openai
 
 # Vector DB
 pinecone==6.0.2
@@ -15,12 +15,12 @@ pinecone-plugin-interface==0.0.7
 groq==0.23.1
 
 # FastAPI stack
-fastapi==0.110.0
+fastapi
 starlette==0.36.3  # Compatible with fastapi 0.110.0
-uvicorn==0.21.1
+uvicorn
 
 # Pydantic (match with langchain and fastapi)
-pydantic>=2.7.4,<3.0.0
+pydantic
 pydantic-core==2.33.1
 pydantic-settings==2.9.1
 
@@ -81,3 +81,4 @@ python-dotenv==1.0.1
 tiktoken==0.7.0
 PyPDF2==3.0.1
 docx2txt==0.8
+structlog
