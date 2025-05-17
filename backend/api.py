@@ -1,6 +1,6 @@
 from fastapi import APIRouter, UploadFile, File, Depends, HTTPException
-from app.dependencies import get_rag
-from app.rag_pipeline import RAG
+from backend.dependencies import get_rag
+from backend.rag_pipeline import RAG
 from fastapi.responses import JSONResponse
 import os
 import shutil

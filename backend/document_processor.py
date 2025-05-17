@@ -3,7 +3,7 @@ import re
 from typing import List, Dict, Optional
 from pdfminer.high_level import extract_text
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from app.vector_database import VectorDB
+from backend.vector_database import VectorDB
 import structlog
 from unicodedata import normalize
 

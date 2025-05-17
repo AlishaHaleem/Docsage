@@ -1,8 +1,8 @@
 from fastapi import Depends
-from app.groq_llm_client import GroqLLMClient
-from app.vector_database import VectorDB
-from app.document_processor import DocumentProcessor
-from app.rag_pipeline import RAG
+from backend.groq_llm_client import GroqLLMClient
+from backend.vector_database import VectorDB
+from backend.document_processor import DocumentProcessor
+from backend.rag_pipeline import RAG
 import os
 
 def get_groq_client():

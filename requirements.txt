@@ -82,3 +82,6 @@ tiktoken==0.7.0
 PyPDF2==3.0.1
 docx2txt==0.8
 structlog
+streamlit
+PyPDF2
+python-docx
